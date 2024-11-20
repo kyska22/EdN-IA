@@ -5,3 +5,8 @@ This repository will contain all the exercises carried out in the development of
 - Introdução ao Python
 - Preparação do entorno de trabalho
 - testes com WSL, e com a instalação de Python direito no Windows
+
+## Semana 02
+- Modulo 02
+- Modulo 03
+  
