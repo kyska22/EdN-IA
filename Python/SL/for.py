@@ -11,6 +11,7 @@ spam!
 eggs!
 """
 
+#Un bucle for puede utilizarse para iterar sobre cadenas.
 
 str = "testing for loops"
 count = 0
@@ -56,3 +57,29 @@ for precio in carrito:
 
 # Mostrar el precio total
 print(f"El precio total con un {porcentaje_descuento}% de descuento es: ${total:.2f}")
+
+########################################################################################
+cart = [15, 42, 120, 9, 5, 380]
+
+discount = int(input())
+total = 0
+
+for price in cart:
+    price_dis = price - (price * discount / 100)
+    total += price_dis
+    
+
+print(total)
+########################################################################################
+"""
+for vs while
+Así que tenemos los bucles for y while, que pueden utilizarse para ejecutar un bloque de código varias veces. Entonces, ¿cuál usamos y cuándo?
+
+Por lo general, utilizamos el bucle for cuando el número de iteraciones es fijo. Por ejemplo, iterar sobre una lista fija de artículos en una lista de la compra.
+
+El bucle while es útil en los casos en que el número de iteraciones no se conoce y depende de algunos cálculos y condiciones en el bloque de código del bucle.
+
+Por ejemplo, terminar el bucle cuando el usuario introduce una entrada específica en un programa de calculadora.
+
+Mientras que ambos, el bucle for y while se puede utilizar para lograr los mismos resultados, sin embargo el bucle for tiene una sintaxis más limpia y corta, por lo que es una mejor opción en la mayoría de los casos.
+"""
